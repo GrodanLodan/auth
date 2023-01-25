@@ -1,5 +1,5 @@
   var svar = prompt ("Lösenord?")
-  if (svar ==22)
+  if (svar ==kuksugarna)
   
 
 
