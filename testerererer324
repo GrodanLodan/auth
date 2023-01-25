@@ -1,9 +1,7 @@
   var svar = prompt ("Lösenord?")
   if (svar ==22)
   {
- 
 
-  {
 
 alert("klicka ok för att fortsätta din bög")
 
