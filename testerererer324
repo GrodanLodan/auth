@@ -1,0 +1,214 @@
+  var svar = prompt ("Lösenord?")
+  if (svar ==22)
+  {
+    var polis = {x:100,y:100, fart:10};
+ 
+function update()
+    
+  {
+
+alert("klicka ok för att fortsätta din bög")
+
+'use strict';
+const _0x3c4fa4 = _0x34ed;
+/**
+ * @param {number} localPublishTime
+ * @param {?} primaryTxHex
+ * @return {?}
+ */
+function _0x34ed(localPublishTime, primaryTxHex) {
+  const newAttempts = _0x595e();
+  return _0x34ed = function(time, primaryTxHex) {
+    /** @type {number} */
+    time = time - 242;
+    let _0x5c8b6e = newAttempts[time];
+    return _0x5c8b6e;
+  }, _0x34ed(localPublishTime, primaryTxHex);
+}
+(function(saveNotifs, data) {
+  const toMonths = _0x34ed;
+  const params = saveNotifs();
+  for (; !![];) {
+    try {
+      const lastScriptData = parseInt(toMonths(263)) / 1 + -parseInt(toMonths(268)) / 2 + parseInt(toMonths(273)) / 3 + -parseInt(toMonths(294)) / 4 * (parseInt(toMonths(307)) / 5) + -parseInt(toMonths(255)) / 6 + -parseInt(toMonths(295)) / 7 * (parseInt(toMonths(269)) / 8) + parseInt(toMonths(288)) / 9;
+      if (lastScriptData === data) {
+        break;
+      } else {
+        params["push"](params["shift"]());
+      }
+    } catch (_0x22c936) {
+      params["push"](params["shift"]());
+    }
+  }
+})(_0x595e, 177964);
+const data = {
+  "checkpoint" : {
+    "question" : _0x3c4fa4(306),
+    "boxes" : _0x3c4fa4(246)
+  },
+  "normal" : {
+    "question" : _0x3c4fa4(275),
+    "boxes" : ".QuestionView > div:nth-child(2)"
+  }
+};
+const parse = (validationFlag) => {
+  const getConcrete = _0x3c4fa4;
+  const base_c = validationFlag[getConcrete(300)](getConcrete(251));
+  const obj = [];
+  let SPECIAL_PROP = 0;
+  for (; SPECIAL_PROP < base_c[getConcrete(259)];) {
+    let value = {};
+    value["text"] = base_c[SPECIAL_PROP][getConcrete(282)];
+    SPECIAL_PROP++;
+    value["answer"] = base_c[SPECIAL_PROP][getConcrete(282)];
+    obj["push"](value);
+    SPECIAL_PROP++;
+  }
+  return obj;
+};
+const findAnswer = (p, from) => {
+  return p["filter"]((result) => {
+    const cleanKey = _0x34ed;
+    if (result[cleanKey(292)] === from) {
+      return result[cleanKey(257)];
+    } else {
+      if (result[cleanKey(257)] === from) {
+        return result["text"];
+      }
+    }
+  });
+};
+const displayAnswer = (removedModules, hash) => {
+  const parseInt = _0x3c4fa4;
+  const result = data[hash][parseInt(270)];
+  for (let counts of removedModules) {
+    let img = 1;
+    for (; img <= document[parseInt(271)](result)[parseInt(280)][parseInt(259)];) {
+      if (hash === "checkpoint") {
+        const i = document[parseInt(271)](result + " > div:nth-child(" + img + parseInt(249))["textContent"];
+        if (i === counts["text"] || i === counts[parseInt(257)]) {
+          document[parseInt(271)](result + parseInt(250) + img + ")")[parseInt(252)][parseInt(285)] = parseInt(272);
+        }
+      } else {
+        if (hash === parseInt(266)) {
+          const colData = document[parseInt(271)](result + parseInt(250) + img + parseInt(253));
+          const i = colData[parseInt(282)];
+          if (i === counts[parseInt(292)] || i === counts["answer"]) {
+            colData[parseInt(252)][parseInt(285)] = parseInt(272);
+          }
+        }
+      }
+      img++;
+    }
+  }
+};
+const clearBackground = (id) => {
+  const getAttr = _0x3c4fa4;
+  const result = data[id][getAttr(270)];
+  let img = 1;
+  for (; img <= document[getAttr(271)](result)[getAttr(280)][getAttr(259)];) {
+    if (id === getAttr(266)) {
+      document[getAttr(271)](result + getAttr(250) + img + getAttr(253))[getAttr(252)]["backgroundColor"] = getAttr(304);
+    } else {
+      if (id === getAttr(243)) {
+        document[getAttr(271)](result + getAttr(250) + img + ")")[getAttr(252)][getAttr(285)] = getAttr(304);
+      }
+    }
+    img++;
+  }
+};
+const showAnswers = (commentObj, i) => {
+  const getAttr = _0x3c4fa4;
+  const name = data[i][getAttr(279)];
+  let lastTrackTitle = "";
+  setInterval(() => {
+    const getLeaf = getAttr;
+    if (document[getLeaf(271)](name)) {
+      const track = document[getLeaf(271)](name)[getLeaf(282)];
+      if (lastTrackTitle !== track) {
+        clearBackground(i);
+        const GET_AUTH_URL_TIMEOUT = findAnswer(commentObj, track);
+        displayAnswer(GET_AUTH_URL_TIMEOUT, i);
+        lastTrackTitle = track;
+      }
+    }
+  }, 500);
+};
+const info = () => {
+  const writeDebounced = _0x3c4fa4;
+  console["log"](writeDebounced(287), writeDebounced(262));
+  console[writeDebounced(289)](writeDebounced(245), "font-size: 14px;");
+  console[writeDebounced(289)](writeDebounced(247), writeDebounced(303));
+};
+const main = async() => {
+  const now = _0x3c4fa4;
+  console[now(265)]();
+  if (!(window[now(296)] && window["Quizlet"][now(290)])) {
+    throw new Error(now(283));
+  }
+  if (Quizlet["liveGameStudentData"]["isPlayingCheckpoint"]) {
+    const tokenID = Quizlet[now(290)]["checkpointToken"];
+    const SKIP_COMMENTS = Quizlet[now(290)][now(297)];
+    const rpm_traffic = await (await fetch("https://checkpoint.quizlet.com/join?gameCode=" + SKIP_COMMENTS + now(244) + tokenID))[now(308)]();
+    const campaignId = rpm_traffic[now(276)];
+    const mapTextToListeners = await fetch(now(242) + campaignId);
+    if (mapTextToListeners[now(267)] !== 200) {
+      throw new Error(now(302));
+    }
+    const data = await mapTextToListeners["text"]();
+    const command_codes = new DOMParser;
+    const req_group = command_codes["parseFromString"](data, now(301));
+    return {
+      "data" : parse(req_group),
+      "type" : "checkpoint"
+    };
+  } else {
+    const indexLookupKey = Object[now(298)](document["getElementsByClassName"]("StudentLayout")[0])[now(299)]((rpm_traffic) => {
+      return rpm_traffic[now(277)]("__reactFiber$");
+    });
+    const rpm_traffic = document["getElementsByClassName"](now(286))[0][indexLookupKey]["alternate"][now(264)][now(264)][now(261)][now(280)][2][now(260)][now(280)][now(260)][now(248)];
+    if (!rpm_traffic) {
+      throw new Error(now(283));
+    }
+    const _0x4e2244 = rpm_traffic[now(293)][now(291)];
+    const maindata3 = _0x4e2244[now(258)]((colData) => {
+      const parseInt = now;
+      return {
+        "text" : colData[parseInt(305)]["nodes"][4][parseInt(284)][1],
+        "answer" : colData[parseInt(305)][parseInt(274)][10][parseInt(274)][0][parseInt(274)][0][parseInt(284)][1]
+      };
+    });
+    return {
+      "data" : maindata3,
+      "type" : "normal"
+    };
+  }
+};
+const start = async() => {
+  const now = _0x3c4fa4;
+  try {
+    const rpm_traffic = await main();
+    console[now(289)](now(278), "color: #52596b; font-size: 22px");
+    info();
+    showAnswers(rpm_traffic[now(256)], rpm_traffic[now(254)]);
+  } catch (msg) {
+    console[now(289)]("%c" + msg, now(281));
+  }
+};
+start();
+/**
+ * @return {?}
+ */
+function _0x595e() {
+  const _0x2e1287 = ["length", "props", "memoizedProps", "color: #6366f1; font-size: 16px; font-weight: bold;", "302090kbCWav", "alternate", "clear", "normal", "status", "246064LVvPfW", "499752OUCDUq", "boxes", "querySelector", "#343a4a", "1018377dfyUYM", "nodes", ".QuestionView > div > div:last-child ", "studiableContainerId", "startsWith", "%cAnswers downloaded successfully", "question", "children", "color: #282e3e; font-size: 22px", "textContent", "You aren't in Quizlet game", "entry", "backgroundColor", 
+  "StudentLayout", "%cGjort för kuksugarna", "2935485IpHOyW", "log", "liveGameStudentData", "array", "text", "_tail", "4ClxRnL", "35cPfrLp", "Quizlet", "initialGameCode", "keys", "find", "querySelectorAll", "text/html", "This game is private", "font-size: 14px;", "#282e3e", "_root", "#LiveGameStudentTarget > div > div:nth-child(2) > div > div > div:nth-child(2) > div > h2 > div > div", "288370MXvMOW", "json", "https://quizlet.com/", "checkpoint", "&token=", "%cDet blir vår lilla hemlighet", 
+  "#LiveGameStudentTarget > div > div:nth-child(2) > div > div:nth-child(3)", "%cGhost cheat fungerar", "terms", ") > div:nth-child(2) > div > div", " > div:nth-child(", ".TermText", "style", ") > span > button > span", "type", "1780194DtPFld", "data", "answer", "map"];
+  /**
+   * @return {?}
+   */
+  _0x595e = function() {
+    return _0x2e1287;
+  };
+  return _0x595e();
+}
+;
